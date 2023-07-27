@@ -443,14 +443,17 @@ p {
 }
 
 .hero {
-  background: url("../../img/Bitmap.png"), lightgray -16.5px -14.5px/100% 100% no-repeat;
+  background: url("../../img/hero.jpeg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
   height: 650px;
   flex-shrink: 0;
-  opacity: 0.75;
 }
 .hero__box {
   display: flex;
-  min-height: 80vh;
+  padding-top: 153px;
+  padding-bottom: 152px;
   margin: 0 auto;
   align-items: center;
 }
