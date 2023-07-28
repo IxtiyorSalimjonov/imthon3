@@ -83,14 +83,13 @@ content: url(../../img/Copy.png );
   border: none;
 }
 
-&__btn:hover{
+
+}
+.hero__btn:hover{
   background-color: #FFF; 
   color:#FCB72B;
-  border: 1px solid   #FCB72B;
+  border: 2px solid   #FCB72B;
   transition-duration: 0.4s;
-
+  
 }
-
-}
-
 
