@@ -472,9 +472,11 @@ p {
   align-items: center;
 }
 .hero__box-aside__content-img {
+  content: url(../../img/Path.png);
   position: absolute;
-  top: 445px;
-  left: 0;
+  z-index: 1;
+  margin-left: -200px;
+  padding-bottom: 40px;
 }
 .hero__box-aside__content-text__p {
   margin: 30px 0 0 80px;
@@ -488,8 +490,11 @@ p {
 }
 .hero__box-aside__content-image {
   position: absolute;
-  right: 300px;
-  top: 445px;
+  content: url(../../img/Copy.png);
+  position: absolute;
+  z-index: 1;
+  padding-left: 550px;
+  padding-top: 90px;
 }
 .hero__btn {
   margin: 30px 0 0 80px;
@@ -505,6 +510,124 @@ p {
   border: none;
 }
 .hero__btn:hover {
+  background-color: #FFF;
+  color: #FCB72B;
+  border: 1px solid #FCB72B;
+  transition-duration: 0.4s;
+}
+
+.section {
+  margin-top: 160px;
+}
+.section__hr {
+  margin-left: -170px;
+  height: 10px;
+  background-color: #E5ECF4;
+  width: 974px;
+  border: none;
+}
+.section__cards {
+  position: absolute;
+  z-index: 1;
+  top: 865px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0 30px;
+}
+.section__cards-card {
+  width: 350px;
+}
+.section__cards-card__title {
+  color: #495567;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -1.071px;
+  margin: 40px 0 27px 0;
+}
+.section__cards-card__text {
+  color: #939CAA;
+  font-family: "Lexend Deca";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.use {
+  margin-top: 500px;
+}
+.use__cards {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 100px 0;
+}
+.use__cards-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.use__cards-card__content-image {
+  content: url(../../img/Group\ 32.svg);
+  position: absolute;
+  z-index: 1;
+  margin-left: -130px;
+  padding-top: 300px;
+}
+.use__cards-card__content2-image2 {
+  content: url(../../img/Group\ 13.svg);
+  position: absolute;
+  z-index: 1;
+  margin-left: -160px;
+  padding-top: 10px;
+}
+.use__cards-card__content3-image3 {
+  content: url(../../img/Group\ 17.svg);
+  position: absolute;
+  z-index: 1;
+  padding-left: 250px;
+  padding-top: 80px;
+}
+.use__cards-card__title {
+  width: 445px;
+}
+.use__cards-card__title-slogan {
+  padding-bottom: 24px;
+  color: #495567;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2.143px;
+}
+.use__cards-card__title-slogan__text {
+  padding-bottom: 40px;
+  color: #939CAA;
+  font-family: "Lexend Deca";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+.use__cards-card__img {
+  border-radius: 50%;
+  width: 445px;
+  height: 445px;
+}
+.use__cards-card__btn {
+  background: #FCB72B;
+  width: 180px;
+  padding: 19px 0;
+  border: none;
+  color: #FFF;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+}
+.use__cards-card__btn:hover {
   background-color: #FFF;
   color: #FCB72B;
   border: 1px solid #FCB72B;

@@ -33,10 +33,13 @@ align-items:center;
 
 
 &-img{
-  
-position:absolute;
-top: 445px;
-left: 0;
+  content: url(../../img/Path.png );
+    position: absolute;
+    z-index: 1;
+    margin-left: -200px;
+    padding-bottom: 40px;
+
+
 }
 &-text{
 
@@ -53,9 +56,13 @@ left: 0;
 }
 }
 &-image{
+
 position:absolute;
-right:300px;
-top: 445px;
+content: url(../../img/Copy.png );
+    position: absolute;
+    z-index: 1;
+    padding-left: 550px;
+    padding-top: 90px;
 }
 
 }
