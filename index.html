@@ -8,7 +8,8 @@
   <title>Copy-Copy</title>
 </head>
 <body>
- <nav class="header">
+  <!-- header qism -->
+ <header class="header">
   <div class="container">
     <div class="header__box">
       <a href="/index.html"> <img class="header__img" src="./img/logo.svg" alt="logo" width="107" height="28"></a>
@@ -34,8 +35,9 @@
       </button>
     </div>
   </div>
- </nav>
+ </header>
  <main>
+  <!-- hero qism  -->
   <section class="hero">
     <div class="container">
       <div class="hero__box">
@@ -55,6 +57,7 @@
       </div>
     </div>
   </section>
+  <!--section qism -->
   <section class="section">
     <div class="container">
       <hr class="section__hr">
@@ -77,6 +80,7 @@
       </div>
     </div>
   </section>
+  <!-- use qism  -->
   <section class="use">
     <div class="container">
     <div class="use__cards">
@@ -89,13 +93,25 @@
         </div>
         <div class="use__cards-card__content">
           <div class="use__cards-card__content-image"></div>
-          <img class="use__cards-card__img" src="./img/aloqa.png" alt="aloqa">
+          <picture>
+            <source class="use__cards-card__img" 
+            type="image/webp"
+            srcset="./img/aloqa.webp"
+            >
+            <img class="use__cards-card__img" src="./img/aloqa.png" alt="aloqa">
+          </picture>
         </div>
       </div>
       <div class="use__cards-card">
         <div class="use__cards-card__content2">
           <div class="use__cards-card__content2-image2"></div>
-          <img class="use__cards-card__img" src="./img/shaxar.png" alt="">
+          <picture>
+            <source class="use__cards-card__img"
+             type="image/webp"
+             srcset="./img/shaxar.webp"
+             >
+            <img class="use__cards-card__img" src="./img/shaxar.png" alt="">
+          </picture>
         </div>
         <div class="use__cards-card__title">
           <h3 class="use__cards-card__title-slogan">Coming to a city near you</h3>
@@ -111,13 +127,19 @@
         </div>
         <div class="use__cards-card__content3">
           <p class="use__cards-card__content3-image3"></p>
-          <img class="use__cards-card__img" src="./img/hamyon.png" alt="">
+          <picture>
+            <source class="use__cards-card__img" type="image/webp"
+            srcset="./img/hamyon.webp"
+            >
+            <img class="use__cards-card__img" src="./img/hamyon.png" alt="">
+          </picture>
         </div>
       </div>
     </div>
   </div>
   </section>
 </main>
+<!-- footer qism -->
 <footer>
   <section class="footer">
     <div class="footer__wrapper">
@@ -127,20 +149,20 @@
             <h3 class="footer__wrapper__first__head">Sign up and Scoot off today</h3>
           </div>
           <div class="footer__wrapper__first__right">
-            <button class="footer__wrapper__app-store">
+            <div class="footer__wrapper__app-store">
               <img class="footer__appstore" src="./img/app.store.svg" alt="applelogo" width="24" />
-              <div class="footer__wrapper__btn">
-                <span class="footer__span">Available on the</span>
-                <a class="footer__text" href="">AppStore</a>
-              </div>
-            </button>
-            <button class="footer__wrapper__play-market">
+              <a class="footer__wrapper__btn" href="https://www.apple.com/ru/app-store/">
+                <p class="footer__span">Available on the</p>
+                  <h5 class="footer__text">AppStore</h5>
+              </a>
+            </div>
+            <div class="footer__wrapper__play-market">
               <img class="footer__playmarket" src="./img/play.market.svg" alt="playstorelogo" width="24" />
-              <div class="footer__wrapper__btn">
-                <span class="footer__span">Available on the</span>
-                <a class="footer__text" href="https://play.google.com/store/games">GooglePlay</a>
-              </div>
-            </button>
+              <a class="footer__wrapper__btn" href="https://play.google.com">
+                <p class="footer__span">Available on the</p>
+                  <h5 class="footer__text">Google Play</h5>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -149,9 +171,11 @@
       <div class="container">
         <div class="footer__card__box">
           <ul class="footer__card__list">
-            <a class="footer__card__logo" href="./index.html">
-              <img src="./img/logo.footer.svg" alt="logo" />
-            </a>
+            <li>
+              <a class="footer__card__logo" href="./index.html">
+                <img src="./img/logo.footer.svg" alt="logo" />
+              </a>
+            </li>
             <li class="footer__card__item">
               <a class="footer__card__link" href="./index.html">About</a>
             </li>
@@ -162,7 +186,17 @@
               <a class="footer__card__link" href="./index.html">Careers</a>
             </li>
           </ul>
-          <img class="footer__card__social-media" src="./img/instagram.svg" alt="linksrasm" />
+         <div class="footer__card-box__img">
+          <a class="footer__card-box__img-link" href="https://www.facebook.com">
+            <img src="./img/facabok.svg" alt="facabok" width="24" height="24">
+          </a>
+          <a class="footer__card-box__img-link" href="https://twitter.com">
+            <img src="./img/tivitr.svg" alt="tivitr"  width="24" height="24" >
+          </a>
+           <a class="footer__card-box__img-link" href="https://www.instagram.com">
+            <img  src="./img/instagram.svg" alt="instagram" width="24" height="24">
+           </a>
+         </div>
         </div>
       </div>
     </div>

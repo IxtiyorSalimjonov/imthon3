@@ -332,6 +332,12 @@ html {
   scroll-behavior: smooth;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 *,
 *::before,
 *::after {
@@ -342,6 +348,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
+  overflow-x: hidden;
   padding: 0;
   margin: 0;
   font-family: "Space Mono";
@@ -450,6 +457,25 @@ p {
   height: 650px;
   flex-shrink: 0;
 }
+.hero__btn {
+  margin: 30px 0 0 80px;
+  width: 180px;
+  padding: 14px 0;
+  background-color: #FCB72B;
+  color: #FFF;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  border: none;
+}
+.hero__btn:hover {
+  background-color: #FFF;
+  color: #FCB72B;
+  border: 2px solid #FCB72B;
+  transition-duration: 0.4s;
+}
 .hero__box {
   display: flex;
   padding-top: 153px;
@@ -495,26 +521,6 @@ p {
   z-index: 1;
   padding-left: 550px;
   padding-top: 90px;
-}
-.hero__btn {
-  margin: 30px 0 0 80px;
-  width: 180px;
-  padding: 14px 0;
-  background-color: #FCB72B;
-  color: #FFF;
-  text-align: center;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 25px;
-  border: none;
-}
-
-.hero__btn:hover {
-  background-color: #FFF;
-  color: #FCB72B;
-  border: 2px solid #FCB72B;
-  transition-duration: 0.4s;
 }
 
 .section {
@@ -636,8 +642,7 @@ p {
 }
 
 .footer {
-  width: 1440px;
-  margin: 0 auto;
+  margin: 0;
 }
 .footer__wrapper {
   background: #495567;
@@ -666,21 +671,24 @@ p {
 }
 .footer__wrapper__app-store {
   display: flex;
-  justify-content: center;
+  border-radius: 4px;
+  background: #fff;
   align-items: center;
   padding: 5px 15px 9px 16px;
   gap: 11px;
 }
 .footer__wrapper__btn {
-  border-radius: 4px;
+  text-decoration: none;
   border: none;
   display: flex;
-  flex-direction: column;
   align-items: start;
+  flex-direction: column;
+  background: none;
 }
 .footer__wrapper__play-market {
   display: flex;
-  justify-content: center;
+  border-radius: 4px;
+  background: #fff;
   align-items: center;
   padding: 5px 15px 9px 16px;
   gap: 11px;
@@ -702,8 +710,8 @@ p {
   text-decoration: none;
 }
 .footer__card {
-  width: 1440px;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0;
   background-color: #333a44;
   padding-top: 35px;
   padding-bottom: 33px;
@@ -740,4 +748,8 @@ p {
 }
 .footer__card__social-media {
   cursor: pointer;
+}
+.footer__card-box__img-link:not(:last-child) {
+  padding-right: 20px;
+  text-decoration: none;
 }/*# sourceMappingURL=styles.css.map */

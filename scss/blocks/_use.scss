@@ -2,63 +2,57 @@
   margin-top: 500px;
 
 &__cards{
-display: grid;
-grid-template-columns: repeat(1,1fr);
-gap: 100px 0;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 100px 0;
 
 &-card{
   display: flex;
   justify-content: space-between;
   align-items:center;
 
-  &__content{
+ &__content{
     
-   &-image{
+  &-image{
     content: url(../../img/Group\ 32.svg );
     position: absolute;
     z-index: 1;
     margin-left: -130px;
-     padding-top: 300px;
+    padding-top: 300px;
     
   }
-    
-  
+  }
+  &__content2{
 
+  &-image2{
+    content: url(../../img/Group\ 13.svg);
+     position: absolute;
+     z-index: 1;
+     margin-left: -160px;
+     padding-top: 10px;
     }
-    &__content2{
-      &-image2{
-        content: url(../../img/Group\ 13.svg);
-        position: absolute;
-        z-index: 1;
-        margin-left: -160px;
-        padding-top: 10px;
-        
-      }
-
-
-      }
+    }
   &__content3{
-  &-image3{
-  content: url(../../img/Group\ 17.svg);
-  position: absolute;
-  z-index: 1;
-  padding-left: 250px;
-   padding-top: 80px;
+
+    &-image3{
+      content: url(../../img/Group\ 17.svg);
+      position: absolute;
+      z-index: 1;
+      padding-left: 250px;
+      padding-top: 80px;
   
   }
   }
-  
 &__title{
   width: 445px;
-
 &-slogan{
-padding-bottom: 24px;
-color: #495567;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: 48px;
-letter-spacing: -2.143px;
+  padding-bottom: 24px;
+  color: #495567;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2.143px;
 
 &__text{
   padding-bottom: 40px;
@@ -72,9 +66,9 @@ letter-spacing: -2.143px;
 }
 }
 &__img{
-border-radius: 50%;
-width: 445px;
-height: 445px;
+  border-radius: 50%;
+  width: 445px;
+  height: 445px;
 
 }
 &__btn{

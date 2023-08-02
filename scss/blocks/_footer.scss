@@ -1,6 +1,5 @@
 .footer {
-  width: 1440px;
-  margin: 0 auto;
+  margin: 0 ;
   &__wrapper {
     background: #495567;
     padding-top: 102px;
@@ -31,21 +30,24 @@
 
     &__app-store {
       display: flex;
-      justify-content: center;
+      border-radius: 4px;
+      background:#fff;
       align-items: center;
       padding: 5px 15px 9px 16px;
       gap: 11px;
     }
     &__btn {
-      border-radius: 4px;
+      text-decoration: none;
       border: none;
       display: flex;
-      flex-direction: column;
       align-items: start;
+      flex-direction: column;
+      background:none;
     }
     &__play-market {
       display: flex;
-      justify-content: center;
+      border-radius: 4px;
+      background:#fff;
       align-items: center;
       padding: 5px 15px 9px 16px;
       gap: 11px;
@@ -70,8 +72,8 @@
   }
 
   &__card {
-    width: 1440px;
-    margin: 0 auto;
+    width:100%;
+    margin: 0;
     background-color: #333a44;
     padding-top: 35px;
     padding-bottom: 33px;
@@ -111,5 +113,12 @@
     &__social-media {
       cursor: pointer;
     }
+  }
+  &__card-box__img{
+  
+  &-link:not(:last-child){
+  padding-right: 20px;
+  text-decoration: none;
+  }
   }
 }

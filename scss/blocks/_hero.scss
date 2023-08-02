@@ -5,6 +5,26 @@ background-position: center center;
 background-repeat: no-repeat;
 height: 650px;
 flex-shrink: 0;
+&__btn{
+  margin:30px 0 0 80px;
+  width: 180px;
+  padding: 14px 0;
+  background-color: #FCB72B;
+  color: #FFF;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  border: none;
+}
+&__btn:hover{
+  background-color: #FFF; 
+  color:#FCB72B;
+  border: 2px solid   #FCB72B;
+  transition-duration: 0.4s;
+  
+}
 
 &__box{
 display: flex;
@@ -68,28 +88,11 @@ content: url(../../img/Copy.png );
 }
 
 }
-}
-&__btn{
-  margin:30px 0 0 80px;
-  width: 180px;
-  padding: 14px 0;
-  background-color: #FCB72B;
-  color: #FFF;
-  text-align: center;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 25px;
-  border: none;
+
 }
 
 
+
 }
-.hero__btn:hover{
-  background-color: #FFF; 
-  color:#FCB72B;
-  border: 2px solid   #FCB72B;
-  transition-duration: 0.4s;
-  
-}
+
 
